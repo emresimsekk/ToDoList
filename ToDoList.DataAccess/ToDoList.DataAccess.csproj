@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoList.Entities\ToDoList.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Concrete\EntityFrameworkCore\Contexts\" />
+  </ItemGroup>
+
 </Project>

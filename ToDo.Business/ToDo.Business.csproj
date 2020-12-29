@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoList.DataAccess\ToDoList.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>
