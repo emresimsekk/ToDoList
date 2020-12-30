@@ -3,12 +3,8 @@ using ToDo.Entities.Concrete;
 
 namespace ToDoList.DataAccess.Interfaces
 {
-    public interface IBusinessRepository
+    public interface IBusinessRepository:IRepository<Business>
     {
-        void Save(Business business);
-        void Delete(Business business);
-        void Update(Business business);
-        Business GetById(int Id);
-        List<Business> GetAll();
+    
     }
 }
