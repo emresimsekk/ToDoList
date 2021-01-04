@@ -20,10 +20,10 @@ namespace ToDoList.DataAccess.Concrete.EntityFrameworkCore.Contexts
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UserMap());
-            modelBuilder.ApplyConfiguration(new BusinessMap());
+            modelBuilder.ApplyConfiguration(new WorkMap());
 
         }
         public DbSet<User> Users { get; set; }
-        public DbSet<Business> Businesses { get; set; }
+        public DbSet<Work> Businesses { get; set; }
     }
 }

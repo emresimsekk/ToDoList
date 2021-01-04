@@ -7,10 +7,10 @@ using ToDo.Entities.Concrete;
 
 namespace ToDoList.DataAccess.Concrete.EntityFrameworkCore.Mapping
 {
-    public class BusinessMap : IEntityTypeConfiguration<Business>
+    public class WorkMap : IEntityTypeConfiguration<Work>
     {
     
-     public void Configure(EntityTypeBuilder<Business> builder)
+     public void Configure(EntityTypeBuilder<Work> builder)
         {
             builder.HasKey(u => u.Id);
             builder.Property(u => u.Id).UseIdentityColumn();

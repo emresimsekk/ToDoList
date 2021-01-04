@@ -17,6 +17,6 @@ namespace ToDo.Entities.Concrete
         public string Mail { get; set; }
     
         public string Phone { get; set; }
-        public List<Business> Businesses { get; set; }
+        public List<Work> Businesses { get; set; }
     }
 }

@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using ToDoList.Entities.Concrete;
+using ToDo.Entities.Concrete;
 
 namespace ToDo.Business.Interfaces
 {
-    interface IBusiness:IGenericService<Business>
+   public interface IUserService:IGenericService<User>
     {
     }
 }
-

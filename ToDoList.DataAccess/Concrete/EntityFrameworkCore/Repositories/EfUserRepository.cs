@@ -7,7 +7,7 @@ using ToDoList.DataAccess.Interfaces;
 
 namespace ToDoList.DataAccess.Concrete.EntityFrameworkCore.Repositories
 {
-    public class EfUserRepository :EfRepository<User>, IUserRepository
+    public class EfUserRepository :EfRepository<User>, IUserDal
     {
        
     }

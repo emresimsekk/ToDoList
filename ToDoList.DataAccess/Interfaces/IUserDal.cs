@@ -3,7 +3,7 @@ using ToDo.Entities.Concrete;
 
 namespace ToDoList.DataAccess.Interfaces
 {
-    public interface IUserRepository : IRepository<User>
+    public interface IUserDal : IRepository<User>
     {
      
     }

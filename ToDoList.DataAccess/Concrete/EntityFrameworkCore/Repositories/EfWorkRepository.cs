@@ -7,7 +7,7 @@ using ToDoList.DataAccess.Interfaces;
 
 namespace ToDoList.DataAccess.Concrete.EntityFrameworkCore.Repositories
 {
-    public class EfBusinessRepository :EfRepository<Business>, IBusinessRepository
+    public class EfWorkRepository :EfRepository<Work>, IWorkDal
     { 
     
     }

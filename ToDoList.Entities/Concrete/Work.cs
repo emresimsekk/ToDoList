@@ -5,7 +5,7 @@ using ToDo.Entities.Interfaces;
 
 namespace ToDo.Entities.Concrete
 {
-    public class Business:IEntity
+    public class Work:IEntity
     {
   
         public int Id { get; set; }
